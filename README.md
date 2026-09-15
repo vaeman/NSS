@@ -5,8 +5,7 @@ Approximating the behaviour of fluids in an incompressible fluid medium by imple
 <img width="944" height="887" alt="image" src="https://github.com/user-attachments/assets/1b3b6e2c-bf19-4e45-b540-623b1d547828" />
 
 <h1>How it works</h1>
-The simulation works on the same principles provided by the Navier Stokes equation, which was one of the seven <a href = "https://en.wikipedia.org/wiki/Millennium_Prize_Problems">Millenium Prize Problems</a>. Coincidentally it got solved while I was researching on this topic. 
-
+The simulation works on the same principles provided by the Navier Stokes equation, which was one of the seven <a href = "https://en.wikipedia.org/wiki/Millennium_Prize_Problems">Millenium Prize Problems</a>. Coincidentally it got solved while I was researching on this topic. The equations and the methods used in this code are from the research paper <a href = "">Fluid </a>
 <h2>Navier stokes equation for velocity: </h2>
 
 $$
@@ -17,5 +16,4 @@ $$
 \nabla \cdot \vec{v} = 0
 $$
 
-
-
+here the first term of t
