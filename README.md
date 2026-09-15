@@ -7,6 +7,8 @@ Approximating the behaviour of fluids in an incompressible fluid medium by imple
 <h1>How it works</h1>
 The simulation works on the same principles provided by the Navier Stokes equation, which was one of the seven <a href = "https://en.wikipedia.org/wiki/Millennium_Prize_Problems">Millenium Prize Problems</a>. Coincidentally it got solved while I was researching on this topic. 
 
+<h2>Navier stokes equation for velocity: </h2>
+
 $$
 \frac{\partial \vec{v}}{\partial t} = -(\vec{v}\cdot\nabla)\vec{v} + \nu\nabla^2\vec{v} + \vec{f}
 $$
@@ -14,3 +16,6 @@ $$
 $$
 \nabla \cdot \vec{v} = 0
 $$
+
+
+
