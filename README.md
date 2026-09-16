@@ -19,9 +19,9 @@ $$
 Where $\vec{v}$ is the velocity field, $\nu$ is viscosity and $\vec{f}$ is some external force. The $\nabla \cdot \vec{v} = 0$ means that the given fluid is not compressible. The fluid is incompressible in the sim because of complexity.
 
 **The equation has 3 variables which help in calculating the velocity.**
-<li>
-  <ul>**Advectation: ** Accounts for the movement of the velocity.</ul>
-  <ul>**Diffusion: ** Diffusion of our fluid / dye into the medium.</ul>
-  <ul>**External Forces: ** Forces acting on the fluid that affect the flow.</ul>
-</li>
+<ul>
+  <li>**Advectation: ** Accounts for the movement of the velocity.</li>
+  <li>**Diffusion: ** Diffusion of our fluid / dye into the medium.</li>
+  <li>**External Forces: ** Forces acting on the fluid that affect the flow.</li>
+</ul>
 <h2>Implementing the equation into code</h2>
