@@ -16,10 +16,4 @@ $$
 \nabla \cdot \vec{v} = 0
 $$
 
-Where 
-𝑣
-⃗
- is the velocity field, 
-𝜈 is viscosity, and 
-𝑓
-⃗	​is any external force (like a mouse drag).
+Where $$ \vec{v} $$ is the velocity field, $$ \nu $$ is viscosity and $$ \vec{f} $$ is some external force. 
