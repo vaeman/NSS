@@ -20,8 +20,8 @@ Where $\vec{v}$ is the velocity field, $\nu$ is viscosity and $\vec{f}$ is some 
 
 **The equation has 3 variables which help in calculating the velocity.**
 <ul>
-  <li>**Advectation: ** Accounts for the movement of the velocity.</li>
-  <li>**Diffusion: ** Diffusion of our fluid / dye into the medium.</li>
-  <li>**External Forces: ** Forces acting on the fluid that affect the flow.</li>
+  <li> $(\vec{v}\cdot\nabla)\vec{v}$ Advectation: Accounts for the movement of the velocity.</li>
+  <li>Diffusion: Diffusion of our fluid / dye into the medium.</li>
+  <li>External Forces: Forces acting on the fluid that affect the flow.</li>
 </ul>
 <h2>Implementing the equation into code</h2>
