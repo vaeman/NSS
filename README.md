@@ -19,13 +19,7 @@ $$
 Where 
 𝑣
 ⃗
-v
  is the velocity field, 
-𝜈
-ν is viscosity, and 
+𝜈 is viscosity, and 
 𝑓
-⃗
-f
-	​
-
- is any external force (like a mouse drag).
+⃗	​is any external force (like a mouse drag).
