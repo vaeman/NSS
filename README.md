@@ -25,3 +25,5 @@ Where $\vec{v}$ is the velocity field, $\nu$ is viscosity and $\vec{f}$ is some 
   <li> $\vec{f}$ (External Forces): Forces acting on the fluid that affect the flow.</li>
 </ul>
 <h2>Implementing the equation into code</h2>
+
+Since calculating each of these terms for every single pixel on the screen involves a lot of computational power, we use a grid, with each cell having its own density, velocity, and color of dye. The clicking of the mouse adds some amount of dye/fluid into the system, then for each frame the terms per grid cell are calculated.
