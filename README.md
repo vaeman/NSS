@@ -16,4 +16,16 @@ $$
 \nabla \cdot \vec{v} = 0
 $$
 
-here the first term of t
+Where 
+𝑣
+⃗
+v
+ is the velocity field, 
+𝜈
+ν is viscosity, and 
+𝑓
+⃗
+f
+	​
+
+ is any external force (like a mouse drag).
