@@ -16,4 +16,4 @@ $$
 \nabla \cdot \vec{v} = 0
 $$
 
-Where $ \vec{v} $ is the velocity field, $ \nu $ is viscosity and $ \vec{f} $ is some external force. 
+Where $\vec{v}$ is the velocity field, $\nu$ is viscosity and $\vec{f}$ is some external force. 
