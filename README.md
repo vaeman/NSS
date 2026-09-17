@@ -27,3 +27,13 @@ Where $\vec{v}$ is the velocity field, $\nu$ is viscosity and $\vec{f}$ is some 
 <h2>Implementing the equation into code</h2>
 
 Since calculating each of these terms for every single pixel on the screen involves a lot of computational power, we use a grid, with each cell having its own density, velocity, and color of dye. The clicking of the mouse adds some amount of dye/fluid into the system, then for each frame the terms per grid cell are calculated.
+
+<h2>Diffuse</h2>
+The function iterates through the grid and takes a weighted average of the 4 cells around it to essentially diffuse the values of one cell into another. This is the same as watching a drop of paint spread out onto the surface of water.
+
+<h2>Advect</h2>
+Advect uses linear interpolation to approximate where the fluid will go. Linear interpolation traces the grid cell backwards in the velocity field then takes a weighted average to find out where the next point will land. It's a stable and cheap way for the job, although the weighted average in the function smooths out the finer details of the fluid.
+
+<h2>Project</h2>
+It's a function that keeps the fluid "incompressible" by making sure the law of conservation of mass is followed during the execution of above functions. 
+
