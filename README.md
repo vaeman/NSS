@@ -37,3 +37,7 @@ Advect uses linear interpolation to approximate where the fluid will go. Linear 
 <h3>Project</h3>
 It's a function that keeps the fluid "incompressible" by making sure the law of conservation of mass is followed during the execution of above functions. 
 
+<h2>Vectorization</h2>
+Vectorization is the backbone of the project. For a `800pxx800px` screen and a cell size of `5px` and an iteration count of `30`, there would've been `844800` iterations per frame. Vectorization brought down that number to 60 (just the iteration count for the diffusion and project functions). This was probably the most useful thing I learned during this project, along with the math if I can begin to comprehend it.
+
+<h1>How to use</h1>
