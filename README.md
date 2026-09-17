@@ -28,7 +28,7 @@ Where $\vec{v}$ is the velocity field, $\nu$ is viscosity and $\vec{f}$ is some 
 
 Since calculating each of these terms for every single pixel on the screen involves a lot of computational power, we use a grid, with each cell having its own density, velocity, and color of dye. The clicking of the mouse adds some amount of dye/fluid into the system, then for each frame the terms per grid cell are calculated.
 
-<h2>Diffuse</h2>
+<h3>Diffuse</h3>
 The function iterates through the grid and takes a weighted average of the 4 cells around it to essentially diffuse the values of one cell into another. This is the same as watching a drop of paint spread out onto the surface of water.
 
 <h2>Advect</h2>
