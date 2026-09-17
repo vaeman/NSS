@@ -37,7 +37,22 @@ Advect uses linear interpolation to approximate where the fluid will go. Linear 
 <h3>Project</h3>
 It's a function that keeps the fluid "incompressible" by making sure the law of conservation of mass is followed during the execution of above functions. 
 
-<h2>Vectorization</h2>
-Vectorization is the backbone of the project. For a `800pxx800px` screen and a cell size of `5px` and an iteration count of `30`, there would've been `844800` iterations per frame. Vectorization brought down that number to 60 (just the iteration count for the diffusion and project functions). This was probably the most useful thing I learned during this project, along with the math if I can begin to comprehend it.
+<h2>Vectorization</h2>    
+Vectorization is the backbone of the project. For a `800px*800px` screen and a cell size of `5px` and an iteration count of `30`, there would've been `844800` iterations per frame. Vectorization brought down that number to 60 (just the iteration count for the diffusion and project functions). This was probably the most useful thing I learned during this project, along with the math if I can begin to comprehend it.
 
 <h1>How to use</h1>
+
+<h2>Requirements: </h2> Pygame, Numpy
+
+<h2>Controls: </h2>
+
+LMB -> add dye
+RMB -> add velocity into the grid (move the fluid around)
+ESC -> quits the program
+
+<h2>Tuning: </h2>
+The behaviour of the fluid can be changed by changing visc, diff, dt etc. 
+Iters is the iteration count of the program. The higher the, slower but more accurate.
+You can add your own fluid sources by using add_vel() and add_color() functions. 
+object() function adds a small circle which acts as roadblock for the fluid
+
